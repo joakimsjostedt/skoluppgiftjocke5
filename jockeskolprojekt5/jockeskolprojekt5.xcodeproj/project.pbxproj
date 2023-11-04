@@ -11,6 +11,8 @@
 		8D8B2EBE2AF460F30066320B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B2EBD2AF460F30066320B /* ContentView.swift */; };
 		8D8B2EC02AF460F40066320B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B2EBF2AF460F40066320B /* Assets.xcassets */; };
 		8D8B2EC32AF460F40066320B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B2EC22AF460F40066320B /* Preview Assets.xcassets */; };
+		8D8B2ECA2AF5BCE00066320B /* MachineLearningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B2EC92AF5BCDF0066320B /* MachineLearningModel.swift */; };
+		8D8B2ECC2AF5BD020066320B /* JockeImageClassifierComplete.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B2ECB2AF5BD020066320B /* JockeImageClassifierComplete.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8D8B2EBD2AF460F30066320B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8D8B2EBF2AF460F40066320B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D8B2EC22AF460F40066320B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D8B2EC92AF5BCDF0066320B /* MachineLearningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineLearningModel.swift; sourceTree = "<group>"; };
+		8D8B2ECB2AF5BD020066320B /* JockeImageClassifierComplete.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = JockeImageClassifierComplete.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				8D8B2EBB2AF460F30066320B /* jockeskolprojekt5App.swift */,
 				8D8B2EBD2AF460F30066320B /* ContentView.swift */,
+				8D8B2EC92AF5BCDF0066320B /* MachineLearningModel.swift */,
+				8D8B2ECB2AF5BD020066320B /* JockeImageClassifierComplete.mlmodel */,
 				8D8B2EBF2AF460F40066320B /* Assets.xcassets */,
 				8D8B2EC12AF460F40066320B /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8B2ECA2AF5BCE00066320B /* MachineLearningModel.swift in Sources */,
+				8D8B2ECC2AF5BD020066320B /* JockeImageClassifierComplete.mlmodel in Sources */,
 				8D8B2EBE2AF460F30066320B /* ContentView.swift in Sources */,
 				8D8B2EBC2AF460F30066320B /* jockeskolprojekt5App.swift in Sources */,
 			);
